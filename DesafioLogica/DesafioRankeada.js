@@ -24,7 +24,7 @@ function calculadoraRankeadas(vitorias, derrotas) {
   return rank;
 }
 
-let vitorias = 300;
+let vitorias = 90;
 let derrotas = 100;
 let resultado = calculadoraRankeadas(vitorias, derrotas);
 console.log("Seu rank atual é: " + resultado);
