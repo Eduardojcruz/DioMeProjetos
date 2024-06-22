@@ -142,6 +142,6 @@ def main():
             break
 
         else:
-            print("Opção inválida. Por favor, selecione novamente.")
+            print("Opção inválida. Por favor, selecione novamente.\n")
 
 main()
