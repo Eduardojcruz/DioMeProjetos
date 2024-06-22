@@ -19,7 +19,9 @@ while True:
         valor = float(input("Informe o valor do depósito: "))
         if valor > 0:
             saldo += valor
-            extrato += f"Depósito no valor de RS {valor:.2f}\n"
+            print(f"Depósito no valor de RS {valor:.2f}\n")
+            texto = f"Depósito no valor de RS {valor:.2f}\n"
+            extrato += texto
         else:
             print("\nO valor informado é inválido.")
             print("============================================") 
