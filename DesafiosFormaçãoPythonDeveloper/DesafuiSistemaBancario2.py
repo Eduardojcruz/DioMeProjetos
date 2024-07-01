@@ -143,5 +143,6 @@ def main():
 
         else:
             print("Opção inválida. Por favor, selecione novamente.")
+            print("============================================")
 
 main()
